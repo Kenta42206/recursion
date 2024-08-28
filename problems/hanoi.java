@@ -1,4 +1,4 @@
-class Solution{
+class Hanoi{
     public static int towerOfHanoi(int discs){
         // 関数を完成させてください
         if(discs <= 1) return 1;

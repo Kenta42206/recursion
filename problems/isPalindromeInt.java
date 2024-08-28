@@ -1,4 +1,4 @@
-public class isPalindromeInt {
+class isPalindromeInt {
     public static boolean isPalindromeInteger(int n){
         // nを文字列化する
         String nString = n + "";
