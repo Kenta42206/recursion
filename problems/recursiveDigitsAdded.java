@@ -1,4 +1,4 @@
-class Solution{
+class recursiveDigits{
     public static int recursiveDigitsAdded(long digits){
         // 関数を完成させてください
         return (int)recursiveDigitsAddedHelper(digits,0);

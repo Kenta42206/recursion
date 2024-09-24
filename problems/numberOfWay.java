@@ -1,5 +1,5 @@
-class Solution{
-    public static int numberOfWay(int x){
+class numberOfWay{
+    public static int getnumberOfWay(int x){
         // 関数を完成させてください
         return numberOfWayHelper(1, 2, x);
     }
@@ -10,8 +10,8 @@ class Solution{
     }
     
     public static void main(String[] args){
-        System.out.println(numberOfWay(1));
-        System.out.println(numberOfWay(5));
-        System.out.println(numberOfWay(10));
+        System.out.println(getnumberOfWay(1));
+        System.out.println(getnumberOfWay(5));
+        System.out.println(getnumberOfWay(10));
     }
 }

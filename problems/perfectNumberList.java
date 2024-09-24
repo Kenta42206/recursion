@@ -1,5 +1,5 @@
 public class perfectNumberList {
-    public static String perfectNumberList(int n){
+    public static String getPerfectNumberList(int n){
         // 関数を完成させてください
         String output = "";
         // nが6以下のときは完全数がないため、noneを返す
@@ -36,13 +36,13 @@ public class perfectNumberList {
     }
 
     public static void main(String[] args){
-        System.out.println(perfectNumberList(3)); // none
-        System.out.println(perfectNumberList(6)); // 6
-        System.out.println(perfectNumberList(28)); // 6-28
-        System.out.println(perfectNumberList(100)); // 6-28
-        System.out.println(perfectNumberList(496)); // 6-28-496
-        System.out.println(perfectNumberList(1000)); // 6-28-496
-        System.out.println(perfectNumberList(10000)); // 6-28-496-8128
+        System.out.println(getPerfectNumberList(3)); // none
+        System.out.println(getPerfectNumberList(6)); // 6
+        System.out.println(getPerfectNumberList(28)); // 6-28
+        System.out.println(getPerfectNumberList(100)); // 6-28
+        System.out.println(getPerfectNumberList(496)); // 6-28-496
+        System.out.println(getPerfectNumberList(1000)); // 6-28-496
+        System.out.println(getPerfectNumberList(10000)); // 6-28-496-8128
     }
     
 }
